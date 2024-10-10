@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+.menu ul{
+    color: rgb(189, 173, 87);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu ul li{
+    margin-left: 20px;
+}
+.menu ul li a{
+    color: rgb(189, 173, 87);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+.menu ul li a:hover{
+    background-color: #555;
+    border-radius: 5px;
+}
+.menu ul li a.juegos{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: purple;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 8px;
+}
+hr {
+    border: none;               
+    border-top: 2px solid #85836b; 
+    margin: 20px 0;
+}
+h2{
+    color: rgb(128, 128, 38);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h3{
+    color: rgb(175, 204, 230);
+}
+#contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+#age1_2{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+#age3_4{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+#age1{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+#age2{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+#age3{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+#age4{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+#menu3 img{
+    border-radius: 50%; /* Esto hace que la imagen sea circular */
+  width: 150px; /* Ajusta el ancho de la imagen */
+  height: 150px; /* Ajusta la altura de la imagen */
+  margin-right: 15px
+}
+#menu3 h2 {
+    margin-top: -120px;
+}
+#menu3 p{
+    color: white;
+}
+.menuSecundario {
+    text-align: center;          
+    margin: 20px 0;             
+}
+
+.menuSecundario ul {
+    list-style: none;           
+    margin: 0;                  
+    padding: 0;                 
+    display: flex;              
+    justify-content: center;     
+}
+
+.menuSecundario ul li {
+    margin: 0 15px;            
+}
+
+.menuSecundario ul li a {
+    color: #24d1d1;                
+    text-decoration: underline;     
+    font-size: 18px;           
+}
+
+.menuSecundario ul li a:hover {
+    text-decoration: underline; 
+    color: #88cfdb;
+}
+#pie p{
+    color: white;
+}
+#pie{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+}
+#menu3 h2{
+    color: rgb(139, 35, 35);
+    text-decoration: underline;
+}
+#menu3 h3{
+    color: #704a1e;
+}
